@@ -38,8 +38,9 @@ body {
 }
 
 #fav-movie li {
-    color: #B8D4E6;
+    color: #B8D4E6; 
 }
+
 
 #fav-movie a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
