@@ -33,12 +33,21 @@ body {
 }
 
 /* FAV-MOVIE */
-#fav-movie p {
+#fav-movie-description {
     font-style: italic;
 }
 
+.mov-inf {
+    color: yellow;
+    font-weight: bold;
+}
+
 #fav-movie li {
-    color: #B8D4E6; 
+    color: #B8D4E6;
+}
+
+.move-detail {
+    margin-left: 30px;
 }
 
 
