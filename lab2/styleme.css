@@ -1,0 +1,68 @@
+body {
+    background-image: url(../images/background.jpg);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* INTRODUCTION */
+
+#introduction {
+
+    text-align: center;
+    border-bottom: groove whitesmoke;
+}
+
+#introduction p {
+    font-weight: bold;
+}
+
+/* SECTION */
+.section {
+    margin-left: 50px;
+}
+
+/* ON-CAMPUS */
+.section h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #FAD7A0;
+}
+
+.section li {
+    font-size: 20px;
+}
+
+/* FAV-MOVIE */
+#fav-movie p {
+    font-style: italic;
+}
+
+#fav-movie li {
+    color: #B8D4E6;
+}
+
+#fav-movie a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #EC7063;
+    font-size: 15px;
+}
+
+/* NEI-FUNFACT */
+
+#mahri h3,
+#hnin h3 {
+    margin-left: 40px;
+    color: #7DCEA0;
+}
+
+footer {
+    border-top: groove whitesmoke 1px;
+}
+
+footer img {
+    margin-top: 10px;
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 50px;
+    height: auto;
+}
