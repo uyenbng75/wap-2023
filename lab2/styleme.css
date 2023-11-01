@@ -77,12 +77,19 @@ span.special {
 
 footer {
     border-top: groove whitesmoke 1px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    width: 200px
 }
 
 footer img {
+    display: block;
+    text-align: center;
     margin-top: 10px;
-    margin-left: 50%;
-    margin-right: 50%;
-    width: 50px;
+    width: 100%;
     height: auto;
 }
