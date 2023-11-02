@@ -110,7 +110,8 @@ td {
     background-color: darkblue;
     border-radius: 10px;
     color: whitesmoke;
-    margin-left: 1020px;
+    display: block;
+    margin: auto;
 }
 
 .button:hover {
