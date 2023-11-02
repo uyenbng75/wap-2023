@@ -1,0 +1,134 @@
+/* HEADER */
+* {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.flex-container {
+    background-color: black;
+    display: flex;
+}
+
+.item {
+    flex-basis: 10%;
+    margin: 10px;
+    /* padding: 10px; */
+}
+
+#logo img {
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 80px;
+}
+
+#welcome {
+    flex-basis: 80%;
+    display: inline-block;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+#welcome p,
+#welcome span {
+    display: inline;
+}
+
+#welcome p {
+    color: white;
+}
+
+#welcome span {
+    font-weight: bold;
+    color: yellow;
+}
+
+#logout img {
+    width: 30px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 25px;
+    z-index: 1;
+}
+
+/* BODY */
+
+section {
+    background-image: url(../images/background.jpg);
+    height: 500px;
+    color: whitesmoke;
+    padding: 90px;
+    padding-top: 20px;
+
+}
+
+section .container-section {
+    color: black;
+    border: 1px solid snow;
+    background-color: aliceblue;
+    opacity: 90%;
+    height: 550px;
+}
+
+
+.table-section p {
+    font-weight: bolder;
+    margin-left: 70px;
+}
+
+table {
+    width: 90%;
+}
+
+td {
+    text-align: left;
+    padding-left: 20px;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.cart-svg {
+    width: 30px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.order {
+    margin-top: 40px;
+}
+
+.order>.button {
+    border: 1px solid white;
+    background-color: darkblue;
+    border-radius: 10px;
+    color: whitesmoke;
+    margin-left: 1020px;
+}
+
+.button:hover {
+    background-color: darkorange;
+}
+
+.input {
+    background-color: whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+}
+
+.final-td {
+    border: none;
+}
+
+#total {
+    font-weight: bold;
+}

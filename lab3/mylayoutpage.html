@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../images/icon.png" />
+    <link href="./layout.css" type="text/css" rel="stylesheet" />
+    <title>My Layout</title>
+</head>
+
+<body>
+    <header>
+        <div class="flex-container">
+            <div class="item" id="logo">
+                <img src="../images/icon.png" alt="logo" />
+            </div>
+            <div class="item" id="welcome">
+                <p>welcome, </p><span>Uyen</span>
+            </div>
+            <div class="item" id="logout">
+                <a href="../index.html">
+                    <img src="../images/logout.png" alt="logout png" />
+                </a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container-section">
+            <div class="table-section" id="product-list">
+                <p>Product List</p>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Stock</th>
+                        <th>Actions</th>
+                    </tr>
+                    <tr>
+                        <td>Among Us Official Game</td>
+                        <td>$18.99</td>
+                        <td>10</td>
+                        <td><img class="cart-svg" src="../images/cart.svg" alt="cart" onclick="alert('Coming soon')" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Survival</td>
+                        <td>$10.87</td>
+                        <td>10</td>
+                        <td><img class="cart-svg" src="../images/cart.svg" alt="cart" onclick="alert('Coming soon')" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Nothing is free</td>
+                        <td>FREE</td>
+                        <td>10</td>
+                        <td><img class="cart-svg" src="../images/cart.svg" alt="cart" onclick="alert('Coming soon')" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="table-section" id="shopping-cart">
+                <p>Your shopping cart</p>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                        <th>Quantity</th>
+                    </tr>
+                    <tr>
+                        <td>Among Us Official Game</td>
+                        <td>$18.99</td>
+                        <td>$18.99</td>
+                        <td><input type="number" class="input" placeholder="0"></td>
+                    </tr>
+                    <tr>
+                        <td>Survival</td>
+                        <td>$10.87</td>
+                        <td>$10.87</td>
+                        <td><input type="number" class="input" placeholder="0"></td>
+                    </tr>
+                    <tr>
+                        <td class="final-td"></td>
+                        <td class="final-td"></td>
+                        <td class="final-td"></td>
+                        <td class="final-td" id="total">Total: 29.86</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="order">
+                <button class="button" type="button" onclick="alert('10 marks')">Place Order</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!--HTML Validation-->
+        <a href=""
+            target="_blank">
+            <img src="../images/htmlchecker.png" alt="html validator" />
+        </a>
+
+        <a href=""
+            target="_blank">
+            <img src="../images/css_checker.png" alt="css validator" />
+        </a>
+    </footer>
+
+
+</body>
+
+</html>
