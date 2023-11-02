@@ -132,3 +132,11 @@ td {
 #total {
     font-weight: bold;
 }
+
+footer {
+    background-image: url(../images/background.jpg);
+}
+
+footer img {
+    width: 200px;
+}
