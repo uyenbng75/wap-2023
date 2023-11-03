@@ -1,0 +1,110 @@
+header {
+    border: none;
+    background-color: #34495E;
+    display: flex;
+}
+
+header h3 {
+    margin: 25px;
+    color: whitesmoke;
+}
+
+#select-action {
+    border: none;
+    background-color: #34495E;
+    color: whitesmoke;
+    margin: 25px;
+    text-align: center;
+}
+
+/* BODY */
+
+.flex-container {
+    margin-left: 10px;
+    width: 100%;
+}
+#row1 {
+    float: left;
+}
+
+#row2 {
+    float: inline-start;
+    padding-left: 20px;
+}
+.sub-container {
+    width: 48%;
+}
+
+.title-name {
+    display: inline-block;
+    margin: 10px;
+}
+
+.input-field {
+    width: 250px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+    float: right;
+}
+
+.selection {
+    height: 25px;
+    float: right;
+    width: 250px;
+}
+
+textarea {
+    float: right;
+    width: 250px;
+    height: 30px;
+}
+
+.payment-area {
+    padding-left: 265px;
+    margin-left: 80px;
+}
+
+.area2 {
+    margin-top: 10px;
+}
+
+.message {
+    display: block;
+}
+
+.message a {
+    color: black;
+}
+
+.title-name {
+    color: black;
+    font-weight: bold;
+}
+
+.asterisk {
+    color: red;
+    padding-right: 100px;
+}
+
+.button-container {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.button-container button {
+    display: inline-block;
+    margin: 5px;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+footer img {
+    width: 200px;
+    display: inline-block;
+}
