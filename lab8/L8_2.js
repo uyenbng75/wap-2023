@@ -35,5 +35,8 @@ Student.prototype.computeAverage = function () {
 const s1 = new Student('John', 'Smith', [95, 88, 76]);
 const s2 = new Student('Joe', 'Joseph', [92, 90, 89]);
 
+s1.inputNewGrade(90);
+s2.inputNewGrade(90);
+
 console.log(s1.firstName + ' ' + s1.lastName + ': ' + s1.computeAverage());
 console.log(s2.firstName + ' ' + s2.lastName + ': ' + s2.computeAverage());
