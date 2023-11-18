@@ -1,0 +1,31 @@
+GET http://localhost:3000/books
+
+###
+GET http://localhost:3000/books/1012
+
+###
+GET http://localhost:3000/books/7722
+
+###
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+    "title": "Lost in the Pages", 
+    "publishedDate": "06/22/1923", 
+    "author": "Adam Lamborghini"
+}
+
+###
+PUT http://localhost:3000/books/7722
+Content-Type: application/json
+
+{
+    "title": "Lost in the Memory",
+    "isbn": 3849310009,
+    "publishedDate": "06/07/1823",
+    "author": "Ferrari"
+}
+
+###
+DELETE http://localhost:3000/books/7722
