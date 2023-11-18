@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  },
+  "name": "project-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "uyen-nguyen",
+  "license": "ISC",
+  "description": ""
+}
